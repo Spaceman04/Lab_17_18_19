@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="196.0" prefWidth="397.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab_17_pr3.HelloController">
+   <children>
+      <Button fx:id="button3" layoutX="277.0" layoutY="25.0" mnemonicParsing="false" onAction="#clickButton3" text="Button3" />
+      <Button fx:id="button1" layoutX="45.0" layoutY="25.0" mnemonicParsing="false" onAction="#clickButton1" text="Button1" />
+      <Button fx:id="button2" layoutX="159.0" layoutY="25.0" mnemonicParsing="false" onAction="#clickButton2" text="Button2" />
+      <Label fx:id="labelForButtons" alignment="CENTER" layoutX="52.0" layoutY="87.0" prefHeight="72.0" prefWidth="272.0" text="Click the Button" textAlignment="CENTER" />
+   </children>
+</Pane>

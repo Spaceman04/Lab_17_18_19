@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="270.0" prefWidth="464.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab_17_15.HelloController">
+   <children>
+      <Button fx:id="button1" layoutX="331.0" layoutY="98.0" mnemonicParsing="false" onAction="#clickPlus" text="+1" />
+      <Button fx:id="button2" layoutX="331.0" layoutY="148.0" mnemonicParsing="false" onAction="#clickMinus" prefHeight="25.0" prefWidth="31.0" text="-1" />
+      <Label fx:id="label1" layoutX="91.0" layoutY="127.0" text="Number" />
+      <TextField fx:id="text1" editable="false" layoutX="158.0" layoutY="123.0" text="0" />
+   </children>
+</Pane>

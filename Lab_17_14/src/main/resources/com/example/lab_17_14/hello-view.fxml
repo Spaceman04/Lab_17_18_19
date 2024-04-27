@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="248.0" prefWidth="211.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab_17_14.HelloController">
+   <children>
+      <Button fx:id="button1" layoutX="80.0" layoutY="186.0" mnemonicParsing="false" onAction="#clickClear" prefHeight="25.0" prefWidth="64.0" text="Clear" />
+      <Button fx:id="button2" layoutX="80.0" layoutY="152.0" mnemonicParsing="false" onAction="#clickCalculate" text="Calculate" />
+      <Label layoutX="46.0" layoutY="38.0" text="a" />
+      <Label layoutX="46.0" layoutY="99.0" prefHeight="17.0" prefWidth="28.0" text="Sum" />
+      <Label layoutX="46.0" layoutY="66.0" prefHeight="17.0" prefWidth="39.0" text="b" />
+      <TextField fx:id="sumText" layoutX="85.0" layoutY="95.0" prefHeight="17.0" prefWidth="79.0" />
+      <TextField fx:id="text2" layoutX="85.0" layoutY="62.0" prefHeight="25.0" prefWidth="79.0" />
+      <TextField fx:id="text1" layoutX="85.0" layoutY="34.0" prefHeight="17.0" prefWidth="79.0" />
+      <Label fx:id="label1" alignment="CENTER" layoutX="58.0" layoutY="124.0" prefHeight="17.0" prefWidth="108.0" />
+   </children>
+</Pane>
